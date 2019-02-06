@@ -1,0 +1,22 @@
+{
+  "name": "awaitmongodb",
+  "version": "0.0.1",
+  "description": "Little lib for await mongodb result",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0nstrum/Await-MongoDB.git"
+  },
+  "keywords": [
+    "mongodb"
+  ],
+  "author": "m0nstrum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0nstrum/Await-MongoDB/issues"
+  },
+  "homepage": "https://github.com/m0nstrum/Await-MongoDB#readme"
+}
