@@ -4,7 +4,7 @@ All methods are described [here](https://www.w3schools.com/nodejs/nodejs_mongodb
 Standard view: 
 ```js
 const awaitmongo = require('awaitmongodb')
-SmartMongo(url, dbname, action, collection, query, newvalue)
+var result = await awaitmongo(url, dbname, action, collection, query, newvalue)
 ```
 * url - url of mongodb, looks like this - 'mongodb://<dbuser>:<dbpassword>@gs111111.mlab.com:11111/kdjdh23857'
 * dbname - name of database
