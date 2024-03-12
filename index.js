@@ -37,7 +37,7 @@
 const { MongoClient } = require('mongodb');
 
 module.exports = async function(url, dbname, action, collection, query, newvalue) {
-    const options = { useNewUrlParser: true, useUnifiedTopology: true };
+    const options = { };
     let client;
 
     try {
