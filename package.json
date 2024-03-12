@@ -1,6 +1,6 @@
 {
   "name": "awaitmongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Little lib for await mongodb result",
   "main": "index.js",
   "scripts": {
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/m0nstrum/Await-MongoDB#readme",
   "dependencies": {
-    "mongodb": "^3.1.13"
+    "mongodb": "^6.5.0"
   },
   "devDependencies": {
-    "mongodb": "^3.1.13"
+    "mongodb": "^6.5.0"
   }
 }
