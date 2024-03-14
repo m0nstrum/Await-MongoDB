@@ -62,14 +62,14 @@ module.exports = async function(url, dbname, action, collection, query, newvalue
             // Example usage of 'insertOne'
             // await mongo(url, 'mydb', 'insertOne', 'mycollection', { name: 'John' });
 
-            const result = await dbo.collection(collection).insertOne(newvalue);
+            const result = await dbo.collection(collection).insertOne(query);
             return result;
         } else if (action === 'insertMany') {
             // Пример использования 'insertMany'
             // Example usage of 'insertMany'
             // await mongo(url, 'mydb', 'insertMany', 'mycollection', [{ name: 'John' }, { name: 'Doe' }]);
 
-            const result = await dbo.collection(collection).insertMany(newvalue);
+            const result = await dbo.collection(collection).insertMany(query);
             return result;
         } else if (action === 'deleteOne') {
             // Пример использования 'deleteOne'
