@@ -1,6 +1,6 @@
 {
   "name": "awaitmongodb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Little lib for await mongodb result",
   "main": "index.js",
   "scripts": {
